@@ -1,0 +1,10 @@
+[[redirects]]
+from = "/"
+to = "https://fakeyou.com"
+status = 302
+
+[[redirects]]
+from = "/*"
+to = "https://fakeyou.com/:splat"
+status = 302
+
