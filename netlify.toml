@@ -1,10 +1,13 @@
+# NB: 301 is permanent redirect, 302 is temporary
+# There are also 307, etc. redirect types.
+
 [[redirects]]
 from = "/"
 to = "https://fakeyou.com"
-status = 302
+status = 301
 
 [[redirects]]
 from = "/*"
 to = "https://fakeyou.com/:splat"
-status = 302
+status = 301
 
