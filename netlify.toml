@@ -3,11 +3,11 @@
 
 [[redirects]]
 from = "/"
-to = "https://fakeyou.com"
+to = "https://fakeyou.com?vocodes=1"
 status = 301
 
 [[redirects]]
 from = "/*"
-to = "https://fakeyou.com/:splat"
+to = "https://fakeyou.com/:splat?vocodes=1"
 status = 301
 
